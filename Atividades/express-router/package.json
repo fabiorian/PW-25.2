@@ -1,0 +1,23 @@
+{
+  "name": "express-router",
+  "version": "1.0.0",
+  "description": "express-router activity",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Fábio",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fabiorian/PW-25.2.git"
+  },
+  "bugs": {
+    "url": "https://github.com/fabiorian/PW-25.2/issues"
+  },
+  "homepage": "https://github.com/fabiorian/PW-25.2#readme",
+  "dependencies": {
+    "express": "^5.1.0"
+  }
+}

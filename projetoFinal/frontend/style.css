@@ -1,0 +1,55 @@
+body {
+  font-family: Arial;
+  background: #111;
+  color: #fff;
+  padding: 20px;
+}
+
+input, textarea, button {
+  display: block;
+  width: 100%;
+  margin: 5px 0;
+  padding: 8px;
+}
+
+button {
+  background: #6c63ff;
+  border: none;
+  color: white;
+}
+.word {
+  font-family: Helvetica;
+  background: #1c1c1c;
+  padding: 10px;
+  margin: 10px 0;
+  border-radius: 5px;
+}
+
+.word small {
+  color: #aaa;
+  margin-left: 5px;
+}
+
+.date {
+  font-size: 0.8em;
+  color: #888;
+  margin-top: 5px;
+}
+
+.delete {
+  background: #ff4d4d;
+  border: none;
+  color: white;
+  padding: 5px 10px;
+  margin-top: 8px;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+.delete:hover {
+  background: #ff1f1f;
+}
+
+.hidden {
+  display: none;
+}

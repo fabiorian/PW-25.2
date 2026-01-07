@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>CreatePedia</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<h1>CreatePedia 📖</h1>
+
+<section class="create">
+  <input id="word" placeholder="Palavra">
+  <input id="phonetic" placeholder="Fonética">
+  <textarea id="meaning" placeholder="Significado"></textarea>
+  <textarea id="example" placeholder="Exemplo"></textarea>
+  <button onclick="createWord()">Criar palavra</button>
+</section>
+
+<h2>Últimas palavras</h2>
+<div id="history"></div>
+
+<a class="more" href="history.html">Ver mais palavras →</a>
+
+<!-- EDITAR PALAVRA (ESCONDIDO) -->
+<section id="editSection" class="hidden">
+  <h2>✏️ Editar palavra</h2>
+
+  <input id="editWord">
+  <input id="editPhonetic">
+  <textarea id="editMeaning"></textarea>
+  <textarea id="editExample"></textarea>
+
+  <button onclick="saveEdit()">Salvar</button>
+  <button onclick="closeEdit()">Cancelar</button>
+</section>
+
+<script src="script.js"></script>
+</body>
+</html>

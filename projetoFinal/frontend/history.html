@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>Histórico - CreatePedia</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<h1>📚 Todas as palavras</h1>
+<a href="index.html">← Voltar</a>
+
+<div id="history"></div>
+
+<!-- MODAL EDITAR -->
+<div id="editModal" class="modal hidden">
+  <div class="modal-content">
+    <h2>✏️ Editar palavra</h2>
+    <input id="editWord">
+    <input id="editPhonetic">
+    <textarea id="editMeaning"></textarea>
+    <textarea id="editExample"></textarea>
+
+    <button onclick="saveEdit()">Salvar</button>
+    <button onclick="closeModal()">Cancelar</button>
+  </div>
+</div>
+
+<script src="history.js"></script>
+</body>
+</html>
